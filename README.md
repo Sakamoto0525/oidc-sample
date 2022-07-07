@@ -9,3 +9,9 @@
 ```bash
 cp .env.default .env
 ```
+
+#### Dockerビルド
+
+```bash
+docker-compose build
+```
