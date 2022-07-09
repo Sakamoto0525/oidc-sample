@@ -12,3 +12,4 @@ services:
       - "8080:8080"
     volumes:
       - .:/go/src/${GITHUB_ACCOUNT_NAME}/${APP_NAME}
+      - ~/.aws/:/root/.aws:ro
